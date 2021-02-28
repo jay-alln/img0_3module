@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gallery</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<header>
+			<h1>Responsive Image Gallery</h1>
+			<p>JavaScript Image Module</p>
+		</header>
+		<nav>
+			<ul>
+				<li class="active">All</li>
+				<li>Popular</li>
+				<li>Nature</li>
+				<li>Creative</li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="images">
+				<div class="wrapper">
+					<img src="images/img1.jpg" alt="Library" />
+					<span><i class="fas fa-search"></i></span>
+				</div>
+				<div class="wrapper">
+					<img src="images/img2.jpg" alt="Theatre" />
+					<span><i class="fas fa-search"></i></span>
+				</div>
+				<div class="wrapper">
+					<img src="images/img3.jpg" alt="Nature" />
+					<span><i class="fas fa-search"></i></span>
+				</div>
+				<div class="wrapper">
+					<img src="images/img4.jpg" alt="History" />
+					<span><i class="fas fa-search"></i></span>
+				</div>
+				<div class="wrapper">
+					<img src="images/img5.jpg" alt="Train" />
+					<span><i class="fas fa-search"></i></span>
+				</div>
+			</div>
+			<div class="modal">
+				<span class="close"> &#10006;</span>
+				<div class="modalContent">
+					<img src="images/img1.jpg" class="modalImg" />
+					<span class="modalTxt"></span>
+				</div>
+			</div>
+		</div>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
